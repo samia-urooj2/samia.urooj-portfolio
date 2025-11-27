@@ -1,11 +1,10 @@
-// components/UI/Button.tsx
 "use client";
 
 import React from "react";
 import { motion } from "framer-motion";
 
 export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  extends Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'onDrag' | 'onDragStart' | 'onDragEnd' | 'onAnimationStart'> {
   children: React.ReactNode;
   variant?: "primary" | "secondary" | "outline";
   className?: string;
@@ -15,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
   variant = "primary",
   className = "",
-  ...props // <-- THIS allows "type", "onClick", etc.
+  ...props
 }) => {
   const baseClasses =
     "px-6 py-3 rounded-full font-medium transition-all duration-300";
@@ -34,7 +33,7 @@ const Button: React.FC<ButtonProps> = ({
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       className={`${baseClasses} ${variants[variant]} ${className}`}
-      {...props} // <-- Spread props AFTER className to allow "type"
+      {...props}
     >
       {children}
     </motion.button>
