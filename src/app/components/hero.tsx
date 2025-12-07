@@ -59,7 +59,7 @@ const scrollToSection = (href: string) => {
             variants={itemVariants}
             className="text-2xl md:text-4xl font-heading font-semibold mb-6 text-dark-600 dark:text-dark-300"
           >
-            Frontend Developer
+            Web Developer
           </motion.div>
           
           <motion.p
