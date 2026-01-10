@@ -12,11 +12,11 @@ import {  FiExternalLink } from 'react-icons/fi';
 const Projects: React.FC = () => {
   const projects = [
   {
-    title: "Travel Agency Website",
-    description: "Developed a full-stack, responsive web application allowing users to browse and book travel packages.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Sanity CMS"],
-    live: "https://www.ubbrothers.com",
-    image: "/image/image1.png"
+    title: "SaaS Landing Page",
+    description: "Designed and built a modern, responsive SaaS landing page focused on clean UI, smooth animations, and user-friendly layout.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    live: "https://landing-page-saas-two.vercel.app/",
+    image: "/image/saas.png"
   },
   {
     title: "Weather Forecast App",
