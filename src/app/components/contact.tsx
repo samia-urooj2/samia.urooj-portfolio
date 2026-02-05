@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
   };
   const socialLinks = [
     { icon: FiGithub, href: 'https://github.com/samia-urooj', label: 'GitHub' },
-    { icon: FiLinkedin, href: 'https://linkedin.com/in/samia-urooj-5264012b5/', label: 'LinkedIn' },
+    { icon: FiLinkedin, href: 'https://www.linkedin.com/in/samia-urooj-5304543a7/', label: 'LinkedIn' },
   ];
 
   const contactInfo = [

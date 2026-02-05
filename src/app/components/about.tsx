@@ -103,7 +103,7 @@ const About: React.FC = () => {
   <div className="w-full h-80 bg-gradient-to-br from-primary-500 to-purple-600 rounded-2xl flex flex-col items-center justify-center">
    <div className="w-32 h-32 bg-white/20 rounded-full overflow-hidden flex items-center justify-center mb-4">
   <Image 
-    src="/image/pfp.png" 
+    src="/image/pfp2.jpeg" 
     alt="samia" 
     width={128}
     height={128}

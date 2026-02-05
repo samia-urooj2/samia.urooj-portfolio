@@ -26,11 +26,11 @@ const Projects: React.FC = () => {
     image: "/image/weather.png"
   },
   {
-    title: "Skincare Blog Website",
-    description: "A modern and visually appealing skincare blog website featuring products for all skin types with smooth UI/UX and fast performance.",
-    tech: ["TypeScript", "JavaScript", "CSS", "Next.js"],
-    live: "https://dynamic-blog-web-nzzn.vercel.app/",
-    image: "/image/skin.png"
+    title: "Digital Agency Website",
+    description: "Digital Agency Portfolio Website Template built with the latest Next.js 14 App Router, TypeScript, Tailwind CSS, and Framer Motion.",
+    tech: ["TypeScript", "Tailwind CSS", "Next.js", "Framer motion", "React icons"],
+    live: "https://digital-agency-web-ten.vercel.app/",
+    image: "/image/digital.png"
   },
   {
     title: "Cryptocurrency Market Tracker",
