@@ -9,14 +9,10 @@ import Badge from '../components/UI/badge';
 const Skills: React.FC = () => {
   const skills = [
     { name: 'HTML5', level: 95, category: 'Frontend' },
-    { name: 'CSS3', level: 95, category: 'Frontend' },
+    { name: 'CSS', level: 95, category: 'Frontend' },
      { name: 'Tailwind CSS', level: 95, category: 'Frontend' },
-    { name: 'TypeScript', level: 90, category: 'Frontend' },
-    { name: 'JavaScript', level: 80, category: 'Frontend' },
-    { name: 'React', level: 90, category: 'Frontend' },
+    { name: 'TypeScript/ Javascript', level: 90, category: 'Frontend' },
     { name: 'Next.js', level: 90, category: 'Frontend' },
-   { name: 'Sanity CMS', level: 90, category: 'Backend' },
-    { name: 'Node.js', level: 75, category: 'Backend' },
     { name: 'Git', level: 85, category: 'Tools' },
     { name: 'Canva', level: 90, category: 'Tools' },
   ];
