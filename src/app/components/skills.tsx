@@ -101,7 +101,7 @@ const Skills: React.FC = () => {
           viewport={{ once: true }}
           className="mt-16 text-center"
         >
-          <h3 className="text-2xl font-heading font-semibold mb-8">
+          <h3 className="dark:text-white text-2xl font-heading font-semibold mb-8">
             Tech Stack
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
@@ -111,7 +111,6 @@ const Skills: React.FC = () => {
   'TypeScript',
   'Tailwind CSS',
   'Node.js',
-  'Sanity CMS',
   'Git',
   'Framer Motion',
 ].map((tech) => (

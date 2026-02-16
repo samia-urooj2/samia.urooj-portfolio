@@ -18,19 +18,27 @@ const Projects: React.FC = () => {
     live: "https://landing-page-saas-two.vercel.app/",
     image: "/image/saas.png"
   },
-  {
-    title: "Weather Forecast App",
-    description: "A weather application that provides real-time weather updates and forecasts with an intuitive user interface.",
-    tech: ["React", "Next.js", "API", "Framer Motion", "TypeScript"],
-    live: "https://weather-forecast-app-eta-green.vercel.app/",
-    image: "/image/weather.png"
-  },
+ 
   {
     title: "Digital Agency Website",
     description: "Digital Agency Portfolio Website Template built with the latest Next.js 14 App Router, TypeScript, Tailwind CSS, and Framer Motion.",
     tech: ["TypeScript", "Tailwind CSS", "Next.js", "Framer motion", "React icons"],
     live: "https://digital-agency-web-ten.vercel.app/",
     image: "/image/digital.png"
+  },
+   {
+    title: "API Dashboard",
+    description: "A modern, animated API dashboard built with HTML, CSS, and CSS Animations. This is a static frontend concept demonstrating visual design, glassmorphism, and UI/UX principles.",
+    tech: ["HTML", "CSS"],
+    live: "https://samia-urooj-mindset-project-script-nmyvbm.streamlit.app/",
+    image: "/image/api.png"
+  },
+   {
+    title: "Weather Forecast App",
+    description: "A weather application that provides real-time weather updates and forecasts with an intuitive user interface.",
+    tech: ["React", "Next.js", "API", "Framer Motion", "TypeScript"],
+    live: "https://weather-forecast-app-eta-green.vercel.app/",
+    image: "/image/weather.png"
   },
   {
     title: "Cryptocurrency Market Tracker",
