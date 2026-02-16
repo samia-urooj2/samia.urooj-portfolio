@@ -62,9 +62,8 @@ const About: React.FC = () => {
               variants={itemVariants}
               className="text-lg text-dark-600 dark:text-dark-300 leading-relaxed"
             >
-              I am a passionate Frontend Developer with 2+ years of experience 
-              creating modern, responsive web applications. I specialize in 
-              React, Next.js, and TypeScript, and I am always eager to learn 
+              I am a passionate Frontend Developer focused on building modern, responsive web applications through hands-on projects and continuous learning.
+ I specialize in Next.js, and TypeScript, and I am always eager to learn 
               new technologies and tackle challenging projects.
             </motion.p>
             
@@ -82,11 +81,11 @@ const About: React.FC = () => {
               className="grid grid-cols-2 gap-4 mt-8"
             >
               <Card hover={false} className="p-6 text-center">
-                <div className="text-2xl font-bold text-primary-600">2+</div>
-                <div className="text-dark-500 dark:text-dark-400">Years Experience</div>
+                <div className="text-2xl font-bold text-primary-600">Project-Based</div>
+                <div className="text-dark-500 dark:text-dark-400">Experience</div>
               </Card>
               <Card hover={false} className="p-6 text-center">
-                <div className="text-2xl font-bold text-primary-600">30+</div>
+                <div className="text-2xl font-bold text-primary-600">20+</div>
                 <div className="text-dark-500 dark:text-dark-400">Projects Completed</div>
               </Card>
             </motion.div>
