@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
     title: "Resume Builder",
     description: "A user-friendly Resume Builder web application that helps create professional resumes.",
     tech: ["HTML", "CSS", "TypeScript"],
-    live: "https://resume-builder-woad-seven.vercel.app/",
+    live: "https://resume-builder-six-theta-75.vercel.app/",
     image: "/image/resume.png"
   },
   {
