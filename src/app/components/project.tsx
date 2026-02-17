@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
     title: "API Dashboard",
     description: "A modern, animated API dashboard built with HTML, CSS, and CSS Animations. This is a static frontend concept demonstrating visual design, glassmorphism, and UI/UX principles.",
     tech: ["HTML", "CSS"],
-    live: "https://samia-urooj-mindset-project-script-nmyvbm.streamlit.app/",
+    live: "https://api-dashboard-opal.vercel.app/",
     image: "/image/api.png"
   },
    {
