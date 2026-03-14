@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Card from '../components/UI/Card';
 import Button from '../components/UI/button';
-import { FiGithub, FiLinkedin,  FiMail, FiPhone, FiMapPin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin,  FiMail,  FiMapPin } from 'react-icons/fi';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
