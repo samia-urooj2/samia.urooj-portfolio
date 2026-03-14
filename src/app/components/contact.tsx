@@ -52,7 +52,6 @@ const Contact: React.FC = () => {
 
   const contactInfo = [
     { icon: FiMail, text: 'samiaurooj386@gmail.com' },
-    { icon: FiPhone, text: '+923363545817' },
     { icon: FiMapPin, text: 'Karachi, Pakistan' },
   ];
 
